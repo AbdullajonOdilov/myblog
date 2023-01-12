@@ -30,8 +30,7 @@ def intervyu(request,num):
     return render(request,'meeting.html',data)
 def about(request):
     return render(request,'about.html')
-def channel(request):
-    return render(request,'channel.html')
+
 
 
 
